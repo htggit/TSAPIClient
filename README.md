@@ -11,7 +11,7 @@ There is a demo app that shows how to connect to the phone system, monitor an ex
 
 This project requires some 3rd party libraries from Avaya to work. Follow these steps to acquire them:
 
-1. Download Avaya Aura AE Services TSAPI Client MS Windows 7.1 from the Avaya support website. It should be named something like this: tsapi-client-win32-7.1.0-67.zip
+1. Download Avaya Aura AE Services TSAPI Client MS Windows 7.1 from the Avaya support website. It should be named something like this: tsapi-client-win32-7.1.0-67.zip [https://www.devconnectprogram.com/fileMedia/download/e9822cf1-a486-49a9-a5f2-5569f13bad5a]
 2. Extract the downloaded zip file.
 3. In the extracted folder is file named Data1.cab. Extract it like a zip archive.
 4. The four following files are required: aes_libeay32.dll, aes_ssleay32.dll, attprv32.dll, and csta32.dll. Copy them into the output directory of the TSAPIClient project.
